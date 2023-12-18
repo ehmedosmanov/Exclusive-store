@@ -62,7 +62,7 @@ const MainProduct = (props: Props) => {
                     </div>
                     <div className="main-product-right flex justify-center items-center relative top-0 bottom-0">
                         <div className="main-product-img relative z-[8] flex justify-center">
-                            <img src={MainImg} alt="" />
+                            <img src={MainImg} alt="MainProduct" />
                         </div>
                         <div className="rounded-full w-full h-[320px] absolute top-0 right-[-5] opacity-25 bg-secondary blur-[80px] filter circle">
                         </div>

@@ -17,7 +17,7 @@ const HeroSlider = (props: Props) => {
                     <div className="slider-title pl-10">
                         <div className="top-title mb-5 flex items-center">
                             <span className='object-cover block w-[27px]' >
-                                <img src={Iphone} alt="" />
+                                <img src={Iphone} alt="Iphone" />
                             </span>
                             <p className='pl-6 text-[12px]'>iPhone 14 Series</p>
                         </div>
@@ -28,7 +28,7 @@ const HeroSlider = (props: Props) => {
                     </div>
                 </div>
                 <div className="hero-slide-img max-w-[200px] col-span-6 md:max-w-[350px]">
-                    <img src={HeroSlideImg} alt="" />
+                    <img src={HeroSlideImg} alt="HeroImage" />
                 </div>
             </SwiperSlide>
             <SwiperSlide className=' bg-black p-5 text-white md:flex md:flex-row flex flex-col gap-6'>
@@ -36,7 +36,7 @@ const HeroSlider = (props: Props) => {
                     <div className="slider-title pl-10">
                         <div className="top-title mb-5 flex items-center">
                             <span className='object-cover block w-[27px]' >
-                                <img src={Iphone} alt="" />
+                                <img src={Iphone} alt="Iphone" />
                             </span>
                             <p className='pl-6 text-[12px]'>iPhone 14 Series</p>
                         </div>
@@ -47,7 +47,7 @@ const HeroSlider = (props: Props) => {
                     </div>
                 </div>
                 <div className="hero-slide-img max-w-[200px] md:max-w-[350px]">
-                    <img src={Iphone14} alt="" />
+                    <img src={Iphone14} alt="Iphone14" />
                 </div>
             </SwiperSlide>
 

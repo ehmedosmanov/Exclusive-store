@@ -40,19 +40,19 @@ const ProductCard = (props: Props) => {
                 <div className="flex gap-2 items-center ">
                     <div className="rating-product flex gap-1 cursor-pointer">
                         <span className='rating-star block w-3 h-3'>
-                            <img src={Start} alt="" />
+                            <img src={Start} alt="Star" />
                         </span>
                         <span className='rating-star block w-3 h-3'>
-                            <img src={Start} alt="" />
+                            <img src={Start} alt="Star" />
                         </span>
                         <span className='rating-star block w-3 h-3'>
-                            <img src={Start} alt="" />
+                            <img src={Start} alt="Star" />
                         </span>
                         <span className='rating-star block w-3 h-3'>
-                            <img src={Start} alt="" />
+                            <img src={Start} alt="Star" />
                         </span>
                         <span className='rating-star block w-3 h-3'>
-                            <img src={Start} alt="" />
+                            <img src={Start} alt="Star" />
                         </span>
                     </div>
                     <div className="comments-product text-sm text-slate-400 pt-1">
