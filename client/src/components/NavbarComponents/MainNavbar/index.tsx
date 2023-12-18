@@ -7,18 +7,18 @@ import BasketImg from '../../../assets/images/Cart1.png'
 import { FaBars } from "react-icons/fa";
 
 type Props = {
-isOpen:boolean,
-handleClickOpenSidebar: () => void
+    isOpen: boolean,
+    handleClickOpenSidebar: () => void
 }
 
-const MainNavbar = ({isOpen, handleClickOpenSidebar}: Props) => {
+const MainNavbar = ({ isOpen, handleClickOpenSidebar }: Props) => {
     return (
         <nav id='nav' className='border-b border-slate-300'>
             <div className="wrapper">
                 <div className="navbar mt-[40px] mb-4 flex justify-between items-center">
                     <div className="logo">
                         <NavLink to={'/'}>
-                            <img src={Logo} alt="" />
+                            <img src={Logo} />
                         </NavLink>
                     </div>
                     <ul className='hidden lg:flex items-center gap-9'>
