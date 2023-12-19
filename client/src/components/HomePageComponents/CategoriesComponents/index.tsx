@@ -1,6 +1,7 @@
 import React from 'react'
 import CategoryCard from './CategoryCardComponent'
-import Phone from '../../../assets/images/Category-CellPhone.png'
+import { MdOutlinePhoneAndroid } from "react-icons/md";
+
 import SectionTitle from '../../CommonComponents/SectionTitle'
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
@@ -33,12 +34,12 @@ const Categories = (props: Props) => {
                         loop={true}
                         className="mySwiper mb-[60px]"
                     >
-                        <SwiperSlide><CategoryCard title='Phones' image={Phone} /></SwiperSlide>
-                        <SwiperSlide><CategoryCard title='Phones' image={Phone} /></SwiperSlide>
-                        <SwiperSlide><CategoryCard title='Phones' image={Phone} /></SwiperSlide>
-                        <SwiperSlide><CategoryCard title='Phones' image={Phone} /></SwiperSlide>
-                        <SwiperSlide><CategoryCard title='Phones' image={Phone} /></SwiperSlide>
-                        <SwiperSlide><CategoryCard title='Phones' image={Phone} /></SwiperSlide>
+                        <SwiperSlide><CategoryCard title='Phones' image={<MdOutlinePhoneAndroid/>} /></SwiperSlide>
+                        <SwiperSlide><CategoryCard title='Phones'  image={<MdOutlinePhoneAndroid/>} /></SwiperSlide>
+                        <SwiperSlide><CategoryCard title='Phones'  image={<MdOutlinePhoneAndroid/>} /></SwiperSlide>
+                        <SwiperSlide><CategoryCard title='Phones'  image={<MdOutlinePhoneAndroid/>} /></SwiperSlide>
+                        <SwiperSlide><CategoryCard title='Phones'  image={<MdOutlinePhoneAndroid/>} /></SwiperSlide>
+                        <SwiperSlide><CategoryCard title='Phones'  image={<MdOutlinePhoneAndroid/>} /></SwiperSlide>
                     </Swiper>
                 </div>
             </div>

@@ -15,8 +15,8 @@ const Features = (props: Props) => {
                 <SectionTitle title='Featured' subtitle='New Arrival' />
                 <div className="features-content">
                     <div className="grid-container parent">
-                        <div className="feature-first feature relative top-0 bottom-0 ">
-                            <div className="feature-image px-7 object-cover pt-20">
+                        <div className="feature-first feature group relative top-0 bottom-0 overflow-hidden">
+                            <div className="feature-image px-7 object-cover pt-20 transition duration-700 group-hover:scale-110">
                                 <img src={PS5} alt="PlayStation5" className=' object-cover' />
                             </div>
                             <div className="feature-content absolute bottom-0 pl-6 pb-6 text-white ">
@@ -24,11 +24,14 @@ const Features = (props: Props) => {
                                 <p className=' text-sm py-4 w-[60%]'>
                                     Black and White version of the PS5 coming out on sale.
                                 </p>
-                                <button className='shop-btn font-medium'>Shop Now</button>
+                                <button className="relative transition-all duration-300 group font-medium">
+                                    Shop Now
+                                    <span className="absolute -bottom-1 left-0 h-px w-0 transition-all duration-300 bg-white group-hover:w-full"></span>
+                                </button>
                             </div>
                         </div>
-                        <div className=" feature-second feature relative top-0 bottom-0 w-full h-full overflow-hidden">
-                            <div className="feature-image absolute right-0 top-0  object-cover ">
+                        <div className="group feature-second feature relative top-0 bottom-0 w-full h-full overflow-hidden">
+                            <div className="feature-image absolute right-0 top-0  object-cover transition duration-700 group-hover:scale-125">
                                 <img src={Woman} alt="Woman" className=' object-cover' />
                             </div>
                             <div className="feature-content absolute bottom-0 pl-6 pb-6 text-white ">
@@ -39,8 +42,8 @@ const Features = (props: Props) => {
                                 <button className='shop-btn font-medium'>Shop Now</button>
                             </div>
                         </div>
-                        <div className="feature-third flex items-center justify-center feature relative top-0 bottom-0  w-full h-full overflow-hidden">
-                            <div className="feature-image object-cover absolute top-0 bottom-0 flex items-center justify-center">
+                        <div className="group feature-third flex items-center justify-center feature relative top-0 bottom-0  w-full h-full overflow-hidden">
+                            <div className="feature-image object-cover absolute top-0 bottom-0 flex items-center justify-center transition duration-700 group-hover:scale-125">
                                 <img src={Speakers} alt="Speakers" className=' object-cover' />
                             </div>
                             <div className="feature-content absolute bottom-0 pl-6 pb-6 text-white ">
@@ -51,8 +54,8 @@ const Features = (props: Props) => {
                                 <button className='shop-btn font-medium'>Shop Now</button>
                             </div>
                         </div>
-                        <div className=" feature-fourth flex items-center justify-center feature relative top-0 bottom-0  w-full h-full overflow-hidden">
-                            <div className="feature-image object-cover absolute top-0 bottom-0 flex items-center justify-center">
+                        <div className=" feature-fourth flex group items-center justify-center feature relative top-0 bottom-0  w-full h-full overflow-hidden">
+                            <div className="feature-image object-cover absolute top-0 bottom-0 flex items-center transition duration-700 group-hover:scale-125 justify-center">
                                 <img src={Parfume} alt="Parfume" className=' object-cover' />
                             </div>
                             <div className="feature-content absolute bottom-0 pl-6 pb-6 text-white ">

@@ -10,7 +10,7 @@ type Props = {
 
 const SidebarNavbar = ({ isOpen, handleClickOpenSidebar }: Props) => {
     return (
-        <aside id='sidebar-nav' className={`${isOpen ? 'active' : ''} fixed top-0 right-0 min-h-screen flex justify-center flex-col text-2xl bg-white w-[300px] border-l border-slate-400 pl-4 z-10`}>
+        <aside id='sidebar-nav' className={`${isOpen ? 'active' : ''} fixed max-w-full top-0 right-0 min-h-screen flex justify-center flex-col text-2xl bg-white w-[300px] border-l border-slate-400 pl-4 z-10`}>
             <div className="sidebar-info">
                 <span onClick={handleClickOpenSidebar} className='close-nav cursor-pointer absolute top-2 right-2 text-5xl'>
                     <CiCircleRemove />
