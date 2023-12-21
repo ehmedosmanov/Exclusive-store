@@ -7,6 +7,7 @@ import Main from './layout/Main'
 import Home from './pages/HomePage'
 import SignUp from './pages/SignUpPage'
 import SignIn from './pages/SignInPage'
+import CartPage from './pages/CartPage'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path='/SignUp' element={<SignUp />} />
             <Route path='/SignIn' element={<SignIn />} />
+            <Route path='/Cart' element={<CartPage />} />
           </Route>
         </Routes>
       </HelmetProvider>
