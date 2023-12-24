@@ -1,0 +1,30 @@
+.user-dropdown {
+  border-radius: 4px;
+  background-image: linear-gradient(
+    to bottom,
+    #d14242,
+    #d55957,
+    #d76f6c,
+    #d88381,
+    #d79695,
+    #d89695,
+    #d99796,
+    #da9796,
+    #dd8482,
+    #de706e,
+    #dd5b59,
+    #db4444
+  );
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  transform: translateY(0);
+  transform-origin: bottom;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  &.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+}

@@ -8,6 +8,9 @@ import Home from './pages/HomePage'
 import SignUp from './pages/SignUpPage'
 import SignIn from './pages/SignInPage'
 import CartPage from './pages/CartPage'
+import Wishlist from './pages/WishlistPage'
+import NotFound from './pages/NotFoundPage'
+import Contact from './pages/ContactPage'
 
 function App() {
   return (
@@ -19,7 +22,10 @@ function App() {
             <Route path='/SignUp' element={<SignUp />} />
             <Route path='/SignIn' element={<SignIn />} />
             <Route path='/Cart' element={<CartPage />} />
+            <Route path='/Wishlist' element={<Wishlist />} />
+            <Route path='/Contact' element={<Contact />} />
           </Route>
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </HelmetProvider>
     </>

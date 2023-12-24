@@ -2,6 +2,7 @@ import React from 'react'
 import SectionTitle from '../../CommonComponents/SectionTitle'
 import './index.scss'
 //Images
+import Ps5Cover from '../../../assets/images/ps5.jpeg'
 import PS5 from '../../../assets/images/ps5-slim-goedkope-playstation_large 1.png'
 import Woman from '../../../assets/images/attractive-woman-wearing-hat-posing-black-background 1.png'
 import Speakers from '../../../assets/images/69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.png'
@@ -31,8 +32,8 @@ const Features = (props: Props) => {
                             </div>
                         </div>
                         <div className="group feature-second feature relative top-0 bottom-0 w-full h-full overflow-hidden">
-                            <div className="feature-image absolute right-0 top-0  object-cover transition duration-700 group-hover:scale-125">
-                                <img src={Woman} alt="Woman" className=' object-cover' />
+                            <div className="feature-image absolute top-0  object-cover transition duration-700 group-hover:scale-125">
+                                <img src={'https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$'} alt="Woman" className='  w-full  object-cover' />
                             </div>
                             <div className="feature-content absolute bottom-0 pl-6 pb-6 text-white ">
                                 <h4 className='font-semibold text-2xl'>PlayStation 5</h4>
