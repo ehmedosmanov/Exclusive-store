@@ -13,6 +13,7 @@ import NotFound from './pages/NotFoundPage'
 import Contact from './pages/ContactPage'
 import ProductDetail from './pages/ProductDetailPage'
 import About from './pages/AboutPage'
+import CheckOut from './pages/CheckOutPage'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path='/Contact' element={<Contact />} />
             <Route path='/ProductDetail' element={<ProductDetail />} />
             <Route path='/About' element={<About />} />
+            <Route path='/CheckOut' element={<CheckOut />} />
           </Route>
           <Route path='*' element={<NotFound />} />
         </Routes>

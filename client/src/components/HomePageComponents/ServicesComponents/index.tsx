@@ -9,7 +9,7 @@ type Props = {}
 
 const Services = (props: Props) => {
     return (
-        <section id='services' className=' py-36'>
+        <section id='services' className='pt-28 pb-36'>
             <div className="wrapper">
                 <div className="services-content grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-y-10 gap-8 place-items-center">
                     <ServiceCard serviceIcon={<FaCarAlt className=' text-3xl' />} title='FREE AND FAST DELIVERY' subtitle='Free delivery for all orders over $140' />

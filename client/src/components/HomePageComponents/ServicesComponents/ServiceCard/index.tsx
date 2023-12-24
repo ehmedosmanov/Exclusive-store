@@ -10,7 +10,7 @@ type Props = {
 
 const ServiceCard = ({ title, subtitle, serviceIcon }: Props) => {
     return (
-        <div className='service flex flex-col items-center justify-center text-center'>
+        <div className=' cursor-pointer service flex flex-col items-center justify-center text-center'>
             <div className="service-icon bg-slate-400 p-2 rounded-full">
                 <span className='bg-black p-5 block text-white rounded-full'>
                     {serviceIcon}

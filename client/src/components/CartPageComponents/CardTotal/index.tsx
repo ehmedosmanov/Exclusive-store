@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../../CommonComponents/Button'
+import { NavLink } from 'react-router-dom'
 
 type Props = {}
 
@@ -28,7 +29,9 @@ const CardTotal = (props: Props) => {
                         <span>$1750</span>
                     </div>
                     <div className="checkout-btb text-center mt-8">
-                        <Button bgPrimary>Procees to checkout</Button>
+                        <NavLink to={'/CheckOut'}>
+                            <Button bgPrimary>Procees to checkout</Button>
+                        </NavLink>
                     </div>
                 </div>
             </div>
