@@ -11,6 +11,8 @@ import CartPage from './pages/CartPage'
 import Wishlist from './pages/WishlistPage'
 import NotFound from './pages/NotFoundPage'
 import Contact from './pages/ContactPage'
+import ProductDetail from './pages/ProductDetailPage'
+import About from './pages/AboutPage'
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
             <Route path='/Cart' element={<CartPage />} />
             <Route path='/Wishlist' element={<Wishlist />} />
             <Route path='/Contact' element={<Contact />} />
+            <Route path='/ProductDetail' element={<ProductDetail />} />
+            <Route path='/About' element={<About />} />
           </Route>
           <Route path='*' element={<NotFound />} />
         </Routes>

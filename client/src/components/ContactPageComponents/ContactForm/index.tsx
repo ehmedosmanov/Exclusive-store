@@ -3,7 +3,7 @@ import Button from '../../CommonComponents/Button'
 import { useForm, SubmitHandler } from 'react-hook-form'
 import { z } from 'zod'
 import { zodResolver } from "@hookform/resolvers/zod";
-import { TypeMessageSchema, messageSchema } from '../../../types/message.type';
+import { TypeMessageSchema, messageSchema } from '../../../validations/message';
 type Props = {}
 
 

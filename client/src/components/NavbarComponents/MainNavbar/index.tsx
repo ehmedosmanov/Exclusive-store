@@ -51,8 +51,8 @@ const MainNavbar = ({ isOpen, handleClickOpenSidebar }: Props) => {
                     </div>
                     <ul className='hidden lg:flex items-center gap-9'>
                         <li><NavLink to={'/'}>Home</NavLink></li>
-                        <li><NavLink to={'/'}>Contact</NavLink></li>
-                        <li><NavLink to={'/'}>About</NavLink></li>
+                        <li><NavLink to={'/Contact'}>Contact</NavLink></li>
+                        <li><NavLink to={'/About'}>About</NavLink></li>
                         <li><NavLink to={'/SignUp'}>Sign Up</NavLink></li>
                     </ul>
                     <div className="navbar-actions flex items-center gap-3">
